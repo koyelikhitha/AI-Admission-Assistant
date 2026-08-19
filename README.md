@@ -42,7 +42,16 @@ Intent Identification
       ↓
 Response Generation
       ↓
-Chatbot Response
+Chatbot Response 
+## Screenshots
+
+### Chatbot Greeting
+
+![Chatbot Greeting](screenshots/chatbot_greeting.png)
+
+### Chatbot Conversation
+
+![Chatbot Conversation](screenshots/chatbot_conversation.png)
 ```
 
 If the chatbot cannot identify a suitable response, the unknown question can be logged for future improvement.
