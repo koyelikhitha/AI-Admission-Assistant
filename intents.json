@@ -1,0 +1,525 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi","hello","hey","good morning","good afternoon","good evening",
+        "hiya","hii","hello there","hey there","greetings","how are you",
+        "is anyone there","can you help me","good day"
+      ],
+      "responses": [
+        "Hello! Welcome to the AI Student Admission Assistant.",
+        "Hi! How can I help you today?",
+        "Greetings! Feel free to ask me about admissions, courses, fees, or campus facilities.",
+        "Welcome! I'm here to answer your college-related questions."
+      ]
+    },
+
+    {
+      "tag": "about_bot",
+      "patterns": [
+        "who are you","what are you","tell me about yourself",
+        "are you a chatbot","what can you do","introduce yourself",
+        "what is this chatbot","how can you help","who made you",
+        "your purpose"
+      ],
+      "responses": [
+        "I'm an AI Student Admission Assistant. I can answer questions about admissions, courses, fees, placements, and campus facilities.",
+        "I'm a virtual assistant designed to help students with admission-related information.",
+        "I'm here to provide quick information about the college and its services."
+      ]
+    },
+
+    {
+      "tag": "admission",
+      "patterns": [
+        "admission","admissions","college admission","how to get admission",
+        "how can i join","join college","take admission","new admission",
+        "apply for admission","admission details","admission information",
+        "how do i apply","can i join this college","seat admission","enrollment"
+      ],
+      "responses": [
+        "Admissions are based on eligibility criteria and the admission process prescribed by the college.",
+        "You can apply for admission by filling out the application form and submitting the required documents.",
+        "Please visit the admission office or the official website for the latest admission updates."
+      ]
+    },
+
+    {
+      "tag": "admission_process",
+      "patterns": [
+        "admission process","how does admission work","steps for admission",
+        "procedure for admission","admission procedure","joining process",
+        "how to apply","application process","registration process",
+        "college admission process"
+      ],
+      "responses": [
+        "The admission process usually includes application submission, document verification, eligibility check, and fee payment.",
+        "Complete the application form, submit the required documents, and pay the admission fee after verification.",
+        "Visit the admission office or apply online through the college portal."
+      ]
+    },
+
+    {
+      "tag": "eligibility",
+      "patterns": [
+        "eligibility","who can apply","can i apply","am i eligible",
+        "admission eligibility","minimum marks","required marks",
+        "qualification","educational qualification","eligibility criteria"
+      ],
+      "responses": [
+        "Eligibility depends on the course you choose and the college admission rules.",
+        "Students who meet the required academic qualifications are eligible to apply.",
+        "Please contact the admission office for detailed eligibility information."
+      ]
+    },
+
+    {
+      "tag": "documents",
+      "patterns": [
+        "documents","required documents","what documents are needed",
+        "documents for admission","certificate required",
+        "which certificates should i bring","document list",
+        "admission documents","original certificates","tc required"
+      ],
+      "responses": [
+        "Required documents generally include 10th and 12th mark sheets, Transfer Certificate, Study Certificates, Aadhaar Card, Passport-size photos, and entrance exam scorecard if applicable.",
+        "Carry both original documents and photocopies during admission.",
+        "Please verify the latest document list with the admission office."
+      ]
+    },
+
+    {
+      "tag": "courses",
+      "patterns": [
+        "courses","courses offered","available courses","what courses",
+        "engineering courses","degree courses","programs",
+        "academic programs","list of courses","what can i study",
+        "course details","branches available","available programs"
+      ],
+      "responses": [
+        "The college offers undergraduate engineering programs in various branches.",
+        "Popular programs include CSE, AI, ECE, EEE, Mechanical, Civil, and IT.",
+        "Please visit the academic section for the complete course list."
+      ]
+    },
+
+    {
+      "tag": "branches",
+      "patterns": [
+        "branches","cse","ai","artificial intelligence","ece","eee",
+        "civil","mechanical","it","computer science","departments",
+        "engineering branches","available branches","specializations"
+      ],
+      "responses": [
+        "The college offers branches such as CSE, AI, ECE, EEE, Civil, Mechanical, and IT.",
+        "Several engineering specializations are available depending on the college.",
+        "Please contact the academic office for the latest branch availability."
+      ]
+    },
+
+    {
+      "tag": "fees",
+      "patterns": [
+        "fees","fee structure","college fee","tuition fee","semester fee",
+        "yearly fee","admission fee","how much is the fee","fee details",
+        "fee information","hostel fee","course fee","payment amount"
+      ],
+      "responses": [
+        "The fee structure depends on the course and admission category.",
+        "Please contact the accounts or admission office for the latest fee details.",
+        "You can also check the official website for the updated fee structure."
+      ]
+    },
+
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "scholarship","scholarships","financial aid","fee reimbursement",
+        "government scholarship","available scholarships","scholarship details",
+        "can i get scholarship","education support","scholarship eligibility"
+      ],
+      "responses": [
+        "Eligible students can apply for government and institutional scholarships.",
+        "Scholarship availability depends on eligibility and government guidelines.",
+        "Contact the scholarship cell for complete information."
+      ]
+    },
+
+    {
+      "tag": "hostel",
+      "patterns": [
+        "hostel","hostel facility","boys hostel","girls hostel",
+        "hostel rooms","hostel fees","hostel food","accommodation",
+        "stay in hostel","college hostel"
+      ],
+      "responses": [
+        "Separate hostel facilities are available for boys and girls.",
+        "Hostels provide accommodation, food, security, and basic amenities.",
+        "Contact the hostel office for room availability and fees."
+      ]
+    },
+
+    {
+      "tag": "transport",
+      "patterns": [
+        "transport","bus","college bus","bus facility","college transport",
+        "bus routes","bus fee","travel facility","pickup point","transportation"
+      ],
+      "responses": [
+        "The college provides transport facilities on selected routes.",
+        "Bus services are available from various nearby locations.",
+        "Contact the transport office for route details and bus fees."
+      ]
+    },
+{
+  "tag": "placements",
+  "patterns": [
+    "placements","placement","placement details","job opportunities",
+    "campus placements","placement cell","highest package",
+    "average package","placement support","companies visiting",
+    "placement percentage","jobs after graduation","career opportunities"
+  ],
+  "responses": [
+    "The college has a dedicated Placement Cell that helps students prepare for campus recruitment.",
+    "Many reputed companies visit the campus for placements every year.",
+    "Students receive placement training, aptitude practice, and interview guidance."
+  ]
+},
+
+{
+  "tag": "internships",
+  "patterns": [
+    "internship","internships","summer internship","industrial training",
+    "training","company internship","internship opportunities",
+    "does college provide internships","internship support",
+    "internship program"
+  ],
+  "responses": [
+    "The college encourages students to participate in internships with industries.",
+    "Internship opportunities are shared through the Training and Placement Cell.",
+    "Students can apply for internships during their course duration."
+  ]
+},
+
+{
+  "tag": "library",
+  "patterns": [
+    "library","books","library timing","digital library",
+    "reading room","library books","book issue",
+    "library facilities","ebooks","journals"
+  ],
+  "responses": [
+    "The library has textbooks, reference books, journals, and digital resources.",
+    "Students can borrow books using their library card.",
+    "The library provides a quiet environment for study and research."
+  ]
+},
+
+{
+  "tag": "laboratories",
+  "patterns": [
+    "lab","labs","laboratory","computer lab","science lab",
+    "ai lab","programming lab","laboratory facilities",
+    "practical labs","lab equipment"
+  ],
+  "responses": [
+    "The college provides well-equipped laboratories for practical learning.",
+    "Computer labs have internet-enabled systems with the required software.",
+    "Each department has specialized laboratories for students."
+  ]
+},
+
+{
+  "tag": "wifi",
+  "patterns": [
+    "wifi","wi-fi","internet","internet facility",
+    "campus wifi","wireless internet","free wifi",
+    "network","internet access","wifi availability"
+  ],
+  "responses": [
+    "Wi-Fi is available across most areas of the campus.",
+    "Students can access the internet using the campus Wi-Fi network.",
+    "Contact the IT department for Wi-Fi login details."
+  ]
+},
+
+{
+  "tag": "canteen",
+  "patterns": [
+    "canteen","food","cafeteria","snacks","meals",
+    "canteen facility","college food","canteen menu",
+    "food court","breakfast lunch dinner"
+  ],
+  "responses": [
+    "The college canteen serves hygienic and affordable food.",
+    "Students can purchase breakfast, lunch, snacks, and beverages in the canteen.",
+    "The canteen is open during college working hours."
+  ]
+},
+
+{
+  "tag": "sports",
+  "patterns": [
+    "sports","games","playground","cricket","football",
+    "volleyball","basketball","sports facilities",
+    "indoor games","outdoor games","gym"
+  ],
+  "responses": [
+    "The college encourages students to participate in sports and games.",
+    "Indoor and outdoor sports facilities are available.",
+    "Sports competitions are organized regularly."
+  ]
+},
+
+{
+  "tag": "clubs",
+  "patterns": [
+    "clubs","student clubs","technical clubs","coding club",
+    "cultural club","activities","events club",
+    "innovation club","robotics club","nss"
+  ],
+  "responses": [
+    "The college has technical, cultural, and social clubs for students.",
+    "Students can participate in coding, cultural, innovation, and service clubs.",
+    "Joining clubs helps students improve teamwork and leadership skills."
+  ]
+},
+
+{
+  "tag": "faculty",
+  "patterns": [
+    "faculty","teachers","professors","lecturers",
+    "staff","teaching staff","faculty members",
+    "department faculty","hod","mentors"
+  ],
+  "responses": [
+    "The college has experienced and qualified faculty members.",
+    "Faculty members guide students in academics and projects.",
+    "Each department has dedicated teaching staff."
+  ]
+},
+
+{
+  "tag": "principal",
+  "patterns": [
+    "principal","college principal","head of college",
+    "who is principal","principal name","director"
+  ],
+  "responses": [
+    "Please visit the official college website for the latest information about the Principal.",
+    "The Principal leads the academic and administrative activities of the college.",
+    "Contact the administration office for details about the Principal."
+  ]
+},
+
+{
+  "tag": "contact",
+  "patterns": [
+    "contact","phone number","mobile number","email",
+    "contact details","college phone","office number",
+    "help desk","admission office number","contact office"
+  ],
+  "responses": [
+    "You can contact the college through the admission office or the official website.",
+    "Please visit the Contact Us section on the college website for phone numbers and email addresses.",
+    "The admission office will assist you with your queries."
+  ]
+},
+
+{
+  "tag": "location",
+  "patterns": [
+    "location","address","where is college","college location",
+    "how to reach","google map","campus address",
+    "college address","directions","nearest bus stop"
+  ],
+  "responses": [
+    "Please check the official website for the complete campus address and map.",
+    "You can use Google Maps to navigate to the college campus.",
+    "The Contact Us page provides location details."
+  ]
+},
+
+{
+  "tag": "website",
+  "patterns": [
+    "website","official website","college website",
+    "college portal","web address","official portal",
+    "online portal","website link"
+  ],
+  "responses": [
+    "Please visit the official college website for the latest information.",
+    "The official website contains admissions, fees, courses, and contact details.",
+    "You can also apply online through the college portal if available."
+  ]
+},
+
+{
+  "tag": "office_timings",
+  "patterns": [
+    "office timing","office hours","working hours",
+    "college timings","admission office timing",
+    "when is office open","office schedule","working days"
+  ],
+  "responses": [
+    "The college office usually operates during regular working hours on weekdays.",
+    "Please contact the college office for exact timings.",
+    "Office timings may vary on holidays."
+  ]
+},
+{
+  "tag": "attendance",
+  "patterns": [
+    "attendance","attendance percentage","minimum attendance",
+    "attendance rules","required attendance","shortage of attendance",
+    "attendance policy","attendance criteria","how much attendance is required",
+    "attendance requirement"
+  ],
+  "responses": [
+    "Students should maintain the minimum attendance percentage prescribed by the college.",
+    "Regular attendance is mandatory to appear for examinations.",
+    "Please contact your department for detailed attendance rules."
+  ]
+},
+
+{
+  "tag": "examinations",
+  "patterns": [
+    "exam","exams","examination","semester exams","internal exams",
+    "external exams","exam schedule","exam timetable","exam dates",
+    "when are exams","mid exams","final exams"
+  ],
+  "responses": [
+    "The examination schedule is announced by the Examination Cell.",
+    "Please check the academic calendar or notice board for exam dates.",
+    "Contact the Examination Branch for more information."
+  ]
+},
+
+{
+  "tag": "grading",
+  "patterns": [
+    "grading","grading system","cgpa","sgpa","grade",
+    "marks","result","results","passing marks","evaluation"
+  ],
+  "responses": [
+    "The college follows the grading system prescribed by the university.",
+    "Results and grades are published after the evaluation process.",
+    "Please contact the Examination Branch for grading details."
+  ]
+},
+
+{
+  "tag": "anti_ragging",
+  "patterns": [
+    "ragging","anti ragging","anti-ragging","ragging policy",
+    "is ragging allowed","student safety","ragging rules",
+    "anti ragging committee","complaint about ragging"
+  ],
+  "responses": [
+    "The college has a strict anti-ragging policy.",
+    "Ragging is strictly prohibited on campus.",
+    "Students can report ragging to the Anti-Ragging Committee immediately."
+  ]
+},
+
+{
+  "tag": "dress_code",
+  "patterns": [
+    "dress code","uniform","college uniform","dress rules",
+    "what should i wear","formal dress","college dress",
+    "uniform compulsory"
+  ],
+  "responses": [
+    "Students should follow the dress code prescribed by the college.",
+    "Please contact your department for dress code guidelines.",
+    "Neat and decent attire is expected on campus."
+  ]
+},
+
+{
+  "tag": "holidays",
+  "patterns": [
+    "holidays","holiday list","vacation","semester holidays",
+    "festival holidays","leave","holiday calendar",
+    "when are holidays","college holidays"
+  ],
+  "responses": [
+    "The holiday list is available in the academic calendar.",
+    "Please check the college notice board for holiday announcements.",
+    "Holiday schedules are updated by the administration."
+  ]
+},
+
+{
+  "tag": "help",
+  "patterns": [
+    "help","can you help me","what can you do","support",
+    "assist me","need help","help me","guide me",
+    "how can you help"
+  ],
+  "responses": [
+    "I can help you with admissions, fees, courses, placements, hostel, transport, scholarships, and campus facilities.",
+    "Ask me anything related to college admissions or campus information.",
+    "I'm here to answer your college-related questions."
+  ]
+},
+
+{
+  "tag": "motivation",
+  "patterns": [
+    "motivate me","motivation","i am sad","i am stressed",
+    "i failed","encourage me","give me confidence",
+    "i need motivation","feeling low","study motivation"
+  ],
+  "responses": [
+    "Believe in yourself. Every successful person started as a beginner.",
+    "Small daily improvements lead to big achievements. Keep learning.",
+    "Stay focused, work hard, and success will follow."
+  ]
+},
+
+{
+  "tag": "thanks",
+  "patterns": [
+    "thanks","thank you","thank you so much","thanks a lot",
+    "thank you bot","thanks for helping","appreciate it",
+    "many thanks","thank you very much"
+  ],
+  "responses": [
+    "You're welcome! Happy to help.",
+    "My pleasure. Have a great day!",
+    "Glad I could help. Best wishes!"
+  ]
+},
+
+{
+  "tag": "goodbye",
+  "patterns": [
+    "bye","goodbye","see you","exit","quit","close",
+    "bye bye","talk later","see you later","have a nice day"
+  ],
+  "responses": [
+    "Goodbye! Have a wonderful day.",
+    "Thank you for using the AI Student Admission Assistant.",
+    "See you again. Best of luck with your studies!"
+  ]
+},
+
+{
+  "tag": "unknown",
+  "patterns": [
+    "asdfgh","qwerty","random question","nothing",
+    "xyz","unknown","abcxyz"
+  ],
+  "responses": [
+    "I'm sorry, I don't have information about that.",
+    "Could you please rephrase your question?",
+    "I couldn't understand your question. Please ask about admissions, courses, fees, placements, or campus facilities."
+  ]
+}
+
+  ]
+}

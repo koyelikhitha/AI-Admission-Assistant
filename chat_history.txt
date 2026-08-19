@@ -1,0 +1,96 @@
+==================================================
+Time : 11-07-2026 18:23:17
+User : hi
+Bot  : Greetings! How may I help you today?
+
+==================================================
+Time : 11-07-2026 18:23:38
+User : i want to knoe about collage
+Bot  : I'm sorry, I couldn't understand your question.
+Please try asking it in a different way.
+
+==================================================
+Time : 11-07-2026 18:23:52
+User : what are the collage timings
+Bot  : Please contact the college office for exact timings.
+
+==================================================
+Time : 11-07-2026 18:29:52
+User : hi
+Bot  : Greetings! How may I help you today?
+
+==================================================
+Time : 11-07-2026 18:32:04
+User : ow can i apply for admission
+Bot  : Admissions are based on eligibility criteria and the admission process prescribed by the college.
+
+==================================================
+Time : 11-07-2026 18:34:20
+User : hi
+Bot  : Hi! Welcome to the AI Student Admission Assistant.
+
+==================================================
+Time : 11-07-2026 18:34:44
+User : what are college timings?
+Bot  : Please contact the college office for exact timings.
+
+==================================================
+Time : 11-07-2026 18:35:40
+User : required documents
+Bot  : Required documents generally include 10th and 12th mark sheets, Transfer Certificate, Study Certificates, Aadhaar Card, Passport-size photos, and entrance exam scorecard if applicable.
+
+==================================================
+Time : 11-07-2026 18:39:38
+User : hi
+Bot  : Hi! Welcome to the AI Student Admission Assistant.
+
+==================================================
+Time : 11-07-2026 18:39:53
+User : required documents
+Bot  : Required documents generally include 10th and 12th mark sheets, Transfer Certificate, Study Certificates, Aadhaar Card, Passport-size photos, and entrance exam scorecard if applicable.
+
+==================================================
+Time : 11-07-2026 18:40:04
+User : hostel
+Bot  : Please verify the latest document list with the admission office.
+
+==================================================
+Time : 11-07-2026 18:40:14
+User : fees
+Bot  : Carry both original documents and photocopies during admission.
+
+==================================================
+Time : 12-07-2026 11:34:02
+User : hi
+Bot  : Hello! How can I assist you with admissions today?
+
+==================================================
+Time : 12-07-2026 11:34:58
+User : fees
+Bot  : Please contact the accounts or admission office for the latest fee details.
+
+==================================================
+Time : 12-07-2026 11:35:09
+User : hostels
+Bot  : The fee structure depends on the course and admission category.
+
+==================================================
+Time : 12-07-2026 11:38:46
+User : hi
+Bot  : Hello! How can I assist you with admissions today?
+
+==================================================
+Time : 12-07-2026 11:38:50
+User : fees
+Bot  : You can also check the official website for the updated fee structure.
+
+==================================================
+Time : 12-07-2026 11:38:53
+User : hostels
+Bot  : Please contact the accounts or admission office for the latest fee details.
+
+==================================================
+Time : 12-07-2026 11:39:03
+User : timings
+Bot  : Students can apply for internships during their course duration.
+
